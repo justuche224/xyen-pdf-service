@@ -1,7 +1,7 @@
 {
   "name": "xyen-pdf-service",
   "scripts": {
-    "start": "bun run pdf-extract-server.ts",
+    "start": "bun src/index.ts",
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
