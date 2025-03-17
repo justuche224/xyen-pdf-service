@@ -1,0 +1,15 @@
+{
+  "name": "xyen-pdf-service",
+  "scripts": {
+    "start": "bun run pdf-extract-server.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.7.4",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.0.375"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
